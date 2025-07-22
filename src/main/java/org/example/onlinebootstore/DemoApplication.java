@@ -1,7 +1,7 @@
-package org.example.demo2;
+package org.example.onlinebootstore;
 
-import org.example.demo2.model.Book;
-import org.example.demo2.service.BookService;
+import org.example.onlinebootstore.model.Book;
+import org.example.onlinebootstore.service.BookService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,9 +9,9 @@ import org.springframework.context.annotation.Bean;
 import java.math.BigDecimal;
 
 @SpringBootApplication
-public class Demo2Application {
+public class DemoApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Demo2Application.class, args);
+        SpringApplication.run(DemoApplication.class, args);
     }
 
     @Bean

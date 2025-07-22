@@ -1,5 +1,5 @@
-package org.example.demo2.service;
-import org.example.demo2.model.Book;
+package org.example.onlinebootstore.service;
+import org.example.onlinebootstore.model.Book;
 
 import java.util.List;
 

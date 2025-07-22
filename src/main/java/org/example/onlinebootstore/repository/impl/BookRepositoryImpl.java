@@ -1,11 +1,13 @@
-package org.example.demo2.impl;
+package org.example.onlinebootstore.repository.impl;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
-import org.example.demo2.model.*;
-import org.example.demo2.repository.*;
+import org.example.onlinebootstore.model.Book;
+import org.example.onlinebootstore.repository.BookRepository;
+import org.hibernate.Session;
 import org.springframework.stereotype.Repository;
+
 import java.util.List;
 
 @Repository
@@ -14,15 +16,21 @@ public class BookRepositoryImpl implements BookRepository {
     @PersistenceContext
     private EntityManager entityManager;
 
+    private Session getSession() {
+        return entityManager.unwrap(Session.class);
+    }
+
     @Override
     @Transactional
     public Book save(Book book) {
-        entityManager.persist(book);
+        getSession().persist(book);
         return book;
     }
 
     @Override
     public List<Book> findAll() {
-        return entityManager.createQuery("SELECT b FROM Book b", Book.class).getResultList();
+        return getSession()
+                .createQuery("FROM Book", Book.class)
+                .getResultList();
     }
 }
