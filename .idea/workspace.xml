@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94417f3d-a516-40de-b61c-4b148e785ad2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/jv-oop/src/main/java/core/basesyntax/Bulldozer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jv-oop/src/main/java/core/basesyntax/Bulldozer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jv-oop/src/main/java/core/basesyntax/Excavator.java" beforeDir="false" afterPath="$PROJECT_DIR$/jv-oop/src/main/java/core/basesyntax/Excavator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jv-oop/src/main/java/core/basesyntax/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/jv-oop/src/main/java/core/basesyntax/Machine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jv-oop/src/main/java/core/basesyntax/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/jv-oop/src/main/java/core/basesyntax/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jv-oop/src/main/java/core/basesyntax/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/jv-oop/src/main/java/core/basesyntax/Truck.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/jv-lottery" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2iptiF5k7C1cHfxDpo73LxfOUBv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ledma/IdeaProjects/jv-oop-advanced"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94417f3d-a516-40de-b61c-4b148e785ad2" name="Changes" comment="" />
+      <created>1720199471167</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720199471167</updated>
+    </task>
+    <servers />
+  </component>
+</project>
