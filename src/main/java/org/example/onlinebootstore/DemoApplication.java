@@ -1,7 +1,6 @@
 package org.example.onlinebootstore;
 
 import java.math.BigDecimal;
-
 import org.example.onlinebootstore.model.Book;
 import org.example.onlinebootstore.service.BookService;
 import org.springframework.boot.CommandLineRunner;
