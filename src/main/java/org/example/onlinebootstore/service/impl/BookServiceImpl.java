@@ -1,16 +1,20 @@
 package org.example.onlinebootstore.service.impl;
 
-import lombok.RequiredArgsConstructor;
+import java.util.List;
+
 import org.example.onlinebootstore.model.Book;
 import org.example.onlinebootstore.repository.BookRepository;
 import org.example.onlinebootstore.service.BookService;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
 public class BookServiceImpl implements BookService {
+    /**
+     * Репозиторій для доступу до книг у базі даних.
+     */
     private final BookRepository bookRepository;
 
     @Override
